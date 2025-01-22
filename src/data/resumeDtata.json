@@ -1,0 +1,122 @@
+{
+  "personalInfo": {
+    "name": "Kalyan Bathula",
+    "title": "Backend Developer",
+    "email": "kalyanbathula7893@gmail.com",
+    "phone": "7893709960",
+    "location": "Hyderabad, Khammam",
+    "github": "https://github.com/kalyanbathula",
+    "linkedin": "https://www.linkedin.com/in/kalyan-bathula-675630229/",
+    "website": "https://kalyan.xyz",
+    "summary": "Developer and AWS Solution Architect specializing in Node.js, Spring Boot, Docker, and Machine Learning. Skilled in designing scalable architectures, deploying secure APIs, and leveraging cloud services. Combining technical expertise with a passion for AI to deliver innovative and efficient solutions.",
+    "image": "https://avatars.githubusercontent.com/u/40724828?v=4"
+  },
+  "experience": [
+    {
+      "company": "Kisan Link",
+      "position": "Backend Developer",
+      "startDate": "Jul 2024",
+      "endDate": "Sep 2024",
+      "description": "Developed APIs for the company website using Express.js, ensuring seamless functionality and integration. Integrated a real-time ChatBot with AstraDB as a vector database and the OpenAI API, enhancing user interaction. Resolved critical cart modification issues during payment processing for improved reliability. Implemented security best practices using Express middlewares. Leveraged AWS, Node.js, Express.js, MongoDB, and GitHub to deliver efficient, scalable, and secure solutions.",
+      "companyUrl": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "Winfiled High School",
+      "degree": "Secondary Education",
+      "startDate": "Mar 2018",
+      "endDate": "May 2019",
+      "description": "",
+      "institutionUrl": ""
+    },
+    {
+      "institution": "Krishnaveni Junior College",
+      "degree": "12th standard",
+      "startDate": "Jun 2019",
+      "endDate": "Nov 2021",
+      "description": "",
+      "institutionUrl": ""
+    },
+    {
+      "institution": "Chaitanya Bharathi Institute of Technology",
+      "degree": "Bachelors in Computer Science",
+      "startDate": "Dec 2021",
+      "endDate": "May 2025",
+      "description": "Currently pursuing my Bachelors in Computer Science at Chaitanya Bharathi Institute of Technology. I have taken courses in Data Structures, Algorithms, Web Development, and Software Engineering. I have also been involved in various coding competitions and hackathons.",
+      "institutionUrl": ""
+    }
+    
+  ],
+  "skills": [
+    "Algorithms",
+    "AWS",
+    "Spring Boot",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Docker",
+    "Machine Learning",
+    "Python",
+    "Cpp",
+    "MySQL",
+    "Message Queues",
+    "Git",
+    "VS Code",
+    "OpenAI"
+  ],
+  "languages": [
+    {
+      "language": "Telugu",
+      "proficiency": "B2-C1"
+    },
+    {
+      "language": "English",
+      "proficiency": "B2"
+    },
+    {
+      "language": "French",
+      "proficiency": "B1"
+    }
+
+  ],
+  "projects": [
+    {
+      "name": "German Traffic Sign Classifier",
+      "description": "Developed a Machine Learning model using Convolutional Neural Networks (CNN) to accurately classify 20 unique traffic sign classes from a dataset of 10,000+ images. Accuracy evaluation was performed using a confusion matrix.",
+      "technologies": ["Convolutional Neural Networks", "Python", "TensorFlow", "Keras"],
+      "link": "N/A"
+    },
+    {
+      "name": "Tours Management System",
+      "description": "Built APIs for tour bookings using Node.js and Express, with features such as user authentication and authorization using JWT tokens and cookies. Implemented middleware for password hashing and queries, as well as functionalities like tour reservations, reviews, admin controls, and security best practices. Hosted on AWS EC2 for scalability.",
+      "technologies": ["Node.js", "Express", "MongoDB", "AWS EC2", "JWT"],
+      "link": "N/A"
+    },
+    {
+      "name": "Auto-Completion System",
+      "description": "Collaborated on an auto-completion system that allows users to add words, search, and efficiently manage word completions using a trie data structure. The project demonstrated optimization for search queries and data handling.",
+      "technologies": ["Trie Data Structure", "C++"],
+      "link": "N/A"
+    }
+  ],
+  "interests": [
+    "Open Source Contributions",
+    "AI and Machine Learning",
+    "Problem Solving and Logical Thinking",
+    "Watching TestCricket"
+  ],
+  "certifications": [
+    {
+      "name": "AWS Solution Architect",
+      "date": "2023-10-01",
+      "description": "GCCP"
+    }
+  ],
+  "softSkills": [
+    "Problem Solving",
+    "Logical Thinking",
+    "Teamwork",
+    "Communication"
+  ]
+}
