@@ -119,7 +119,7 @@ class GitHubService {
   private cache: { [key: string]: any } = {}; // Cache object
 
   private constructor() {
-    const token = "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";
+    const token = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
     console.log('GitHub token:', token); // Add this line to verify the token
     if (!token) {
       console.error('GitHub token is not set in environment variables');
