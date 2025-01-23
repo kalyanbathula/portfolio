@@ -1,5 +1,8 @@
 {
   "/page": "app/page.js",
-  "/blog/[id]/page": "app/blog/[id]/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/resume/page": "app/resume/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/github-stats/page": "app/github-stats/page.js",
+  "/api/github/trends/route": "app/api/github/trends/route.js"
 }
