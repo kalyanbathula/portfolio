@@ -1,5 +1,6 @@
 // import { Octokit } from '@octokit/rest';
 // import type { RestEndpointMethodTypes } from '@octokit/plugin-rest-endpoint-methods';
+// import * as dotenv from 'dotenv';
 
 // type UserResponse = RestEndpointMethodTypes["users"]["getByUsername"]["response"];
 // type ReposResponse = RestEndpointMethodTypes["repos"]["listForUser"]["response"];
@@ -12,7 +13,7 @@
 //   private readonly RETRY_DELAY = 1000; // 1 second
 
 //   private constructor() {
-//     const token = "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";
+//     const token = "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";
 //     console.log('GitHub token:', token); // Add this line to verify the token
 //     if (!token) {
 //       console.error('GitHub token is not set in environment variables');
@@ -52,7 +53,7 @@
 //   async getUserData(username: string): Promise<UserResponse> {
 //     console.log('Fetching user data for:', username); // Add this line to verify the username
 //     const data = await this.retryOperation(() => 
-//       this.octokit.users.getByUsername({ username })
+//       this.octokit.users.getByUsername({ username:"kalyanbathula" })
 //     );
 //     console.log('User Data:', data); // Add this line to verify the response
 //     return data;
@@ -99,6 +100,10 @@
 
 // export const githubService = GitHubService.getInstance();
 
+
+
+
+
 import { Octokit } from '@octokit/rest';
 import type { RestEndpointMethodTypes } from '@octokit/plugin-rest-endpoint-methods';
 
@@ -114,7 +119,7 @@ class GitHubService {
   private cache: { [key: string]: any } = {}; // Cache object
 
   private constructor() {
-    const token = "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";
+    const token = "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";
     console.log('GitHub token:', token); // Add this line to verify the token
     if (!token) {
       console.error('GitHub token is not set in environment variables');
