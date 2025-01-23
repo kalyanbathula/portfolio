@@ -6,11 +6,11 @@ interface Language {
   flag: string;
 }
 
+
 const languages: Language[] = [
   { name: 'English', level: 'Fluent', flag: '🇬🇧' },
-  { name: 'Telugu', level: 'Fluent', flag: '🇩🇪' },
+  { name: 'Telugu', level: 'Fluent', flag: '🇮🇳' }, // Updated flag to India
   { name: 'French', level: 'Fluent', flag: '🇫🇷' },
-
 ];
 
 interface LanguageCardProps {
