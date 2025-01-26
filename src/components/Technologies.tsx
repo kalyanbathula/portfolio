@@ -21,6 +21,8 @@ import {
   GitBranch,
   Github,
   Rocket,
+  Flame, // Assuming Flame icon for Firebase
+  Activity,
   Link
 } from 'lucide-react';
 
@@ -30,6 +32,8 @@ const skills = [
     { icon: <Zap />, name: "Spring Boot" },
     { icon: <Server />, name: "Node.js" },
     { icon: <Zap />, name: "Express.js" },
+    { icon: <Flame />, name: "Firebase" }, // Added Firebase
+    { icon: <Activity />, name: "Deep Learning" }, // Added Deep Learning
     { icon: <Database />, name: "MongoDB" },
     { icon: <Container />, name: "Docker" },
     { icon: <Brain />, name: "Machine Learning" },
