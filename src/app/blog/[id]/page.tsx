@@ -107,8 +107,8 @@ export default async function BlogPost({ params }: BlogPostProps) {
         <h3 className="text-2xl font-semibold mb-6 text-gray-900 dark:text-white">About the Author</h3>
         <div className="flex items-center bg-gray-100 dark:bg-gray-800 p-6 rounded-lg">
           <Image
-            src={heroImage}
-            alt={postData.author}
+            src={}
+            alt={}
             width={80}
             height={80}
             className="rounded-full mr-6"
